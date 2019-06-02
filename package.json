@@ -19,7 +19,7 @@
     "lint-check": "eslint --print-config .eslintrc.yml | eslint-config-prettier-check",
     "check": "flow check",
     "prettier": "prettier --write 'packages/*/src/**/*.{js,jsx}'",
-    "prettier-check": "prettier 'packages/*/src/**/*.{js,jsx}'"
+    "prettier-check": "prettier --list-different 'packages/*/src/**/*.{js,jsx}'"
   },
   "workspaces": [
     "packages/*"
