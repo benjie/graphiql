@@ -70,7 +70,7 @@ rules:
   react/prefer-es6-class: error
   react/prefer-stateless-function: error
   react/react-in-jsx-scope: error
-  react/self-closing-comp: error
+  react/self-closing-comp: off
   react/sort-comp: 
     - error
     - order:  
@@ -273,7 +273,7 @@ rules:
   operator-assignment: [error, always]
   padding-line-between-statements: off
   # undecided prefer-object-spread: error
-  quotes: [error, single, { avoidEscape: true, allowTemplateLiterals: true }]
+  quotes: off
   # undecided sort-keys: off
   sort-vars: off
   spaced-comment: [error, always]
@@ -329,7 +329,7 @@ rules:
   jsx-quotes: off
   key-spacing: off
   keyword-spacing: off
-  linebreak-style: error
+  linebreak-style: off
   max-len: off
   multiline-ternary: off
   newline-per-chained-call: off
