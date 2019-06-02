@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "test": "yarn run build && yarn run check && yarn run lint && yarn run testonly",
+    "test": "yarn run build && yarn run check && yarn run lint && yarn run prettier-check && yarn run testonly",
     "testonly": "yarn run build && lerna run test",
     "lint": "eslint --report-unused-disable-directives packages/*/src",
     "lint-check": "eslint --print-config .eslintrc.yml | eslint-config-prettier-check",
